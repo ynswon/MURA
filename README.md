@@ -4,12 +4,12 @@ MURA(musculoskeletal radiographs) - bone x-ray
 Reference: https://stanfordmlgroup.github.io/competitions/mura/
 
 Prerequisite
-Python 3.5
-TensorFlow 1.8+
-keras 2.2.0
-numpy 1.14.5
-pandas 0.23.3
-sklearn 0.19.1
+Python 3.5\n
+TensorFlow 1.8+\n
+keras 2.2.0\n
+numpy 1.14.5\n
+pandas 0.23.3\n
+sklearn 0.19.1\n
 
 How To Run
 #Modification(histogram_equalization)
