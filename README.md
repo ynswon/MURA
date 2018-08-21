@@ -65,9 +65,9 @@ python3 predict.py MURA-v1.1/valid.csv prediction.csv
 
 ### data
 데이터경로 :
-MURA-v1.1 : /shared/casper/MURA/MURA-v1.1(36808장) 또는 /shared/casper/MURA/MURA-v1.1.zip 
-MURA-v1.0 : /shared/casper/MURA/MURA-v1.0          또는 /shared/casper/MURA/mura-v1.0.zip
-MURAv1.0 + MURAv1.1(49158장) : /shared/casper/MURA/data 
+MURA-v1.1 : @strange:/shared/casper/MURA/MURA-v1.1(36808장) 또는 @strange:/shared/casper/MURA/MURA-v1.1.zip 
+MURA-v1.0 : @strange:/shared/casper/MURA/MURA-v1.0          또는 @strange:/shared/casper/MURA/mura-v1.0.zip
+MURAv1.0 + MURAv1.1(49158장) : @strange:/shared/casper/MURA/data 
 
 ### log
 로그 보기 예시:
