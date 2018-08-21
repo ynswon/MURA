@@ -18,7 +18,7 @@ keras_preprocessing package 의 image.py 파일에 data augmentation부분이 �
 ```shell
 ### Clone the repo.
 git clone https://github.com/AItrics/MURA.git
-<br>cd MURA
+cd MURA
 
 ### Transform MURA-v1.1 folder to data folder
 python3 download_and_convert_mura.py
