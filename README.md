@@ -52,7 +52,7 @@ python3 predict.py MURA-v1.1/valid.csv prediction.csv
 
 
 - Single Model (DenseNet169 with Histogram Equalization, batch_size=8,  img_size=420)
-@stark://shared/casper/MURA/models/DenseNet169_420_NEW_HIST.hdf5
+@strange://shared/casper/MURA/models/DenseNet169_420_NEW_HIST.hdf5
 
 |                 | single    | 
 | --------------: | :-------- | 
