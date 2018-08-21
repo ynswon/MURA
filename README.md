@@ -4,7 +4,7 @@ MURA(musculoskeletal radiographs) - bone x-ray
 Reference: https://stanfordmlgroup.github.io/competitions/mura/
 
 ### Prerequite
-<br>Python 3.5
+Python 3.5
 <br>TensorFlow 1.8+
 <br>keras 2.2.0
 <br>numpy 1.14.5
@@ -16,12 +16,13 @@ keras_preprocessing package 의 image.py 파일에 data augmentation부분이 �
 /home/casper/.local/lib/python3.5/site-packages/keras_preprocessing/image.py 를 해당 image.py로 교체 
 
 ### Clone the repo.
+'''shell
 git clone https://github.com/AItrics/MURA.git
-cd MURA
+<br>cd MURA
 
 ### Transform MURA-v1.1 folder to data folder
 python3 download_and_convert_mura.py
--> training에 들어가는 Input형태로 폴더와 파일을 정라하여 /data폴더에 넣어줌
+<br>-> training에 들어가는 Input형태로 폴더와 파일을 정라하여 /data폴더에 넣어줌
 
 ### Run
 python3 train.py
