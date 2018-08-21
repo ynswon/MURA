@@ -22,7 +22,7 @@ git clone https://github.com/AItrics/MURA.git
 
 ### Transform MURA-v1.1 folder to data folder
 python3 download_and_convert_mura.py
-<br>-> training에 들어가는 Input형태로 폴더와 파일을 정라하여 /data폴더에 넣어줌
+### training에 들어가는 Input형태로 폴더와 파일을 정라하여 /data폴더에 넣어줌
 
 ### Run
 python3 train.py
