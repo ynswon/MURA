@@ -30,7 +30,7 @@ python3 train.py
 python3 eval.py
 python3 predict.py MURA-v1.1/valid.csv prediction.csv
 
-<b> Performance </b>
+### Performance 
 - Ensemble Model
 (model1 + model3 + model3  + model5 + model5) /5 로 평균낸 ensemble
 
