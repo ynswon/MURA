@@ -4,12 +4,12 @@ MURA(musculoskeletal radiographs) - bone x-ray
 Reference: https://stanfordmlgroup.github.io/competitions/mura/
 
 ### Prerequite
-Python 3.5
-TensorFlow 1.8+
-keras 2.2.0
-numpy 1.14.5
-pandas 0.23.3
-sklearn 0.19.1
+<br>Python 3.5
+<br>TensorFlow 1.8+
+<br>keras 2.2.0
+<br>numpy 1.14.5
+<br>pandas 0.23.3
+<br>sklearn 0.19.1
 
 ### histogram_equalization usage
 keras_preprocessing package 의 image.py 파일에 data augmentation부분이 수정되야함
@@ -67,7 +67,6 @@ python3 predict.py MURA-v1.1/valid.csv prediction.csv
 데이터경로 :
 <br>MURA-v1.1 : @strange:/shared/casper/MURA/MURA-v1.1(36808장) 또는 @strange:/shared/casper/MURA/MURA-v1.1.zip 
 <br>MURA-v1.0 : @strange:/shared/casper/MURA/MURA-v1.0          또는 @strange:/shared/casper/MURA/mura-v1.0.zip
-
 <br>MURAv1.0 + MURAv1.1(49158장) : @strange:/shared/casper/MURA/data 
 
 ### log
