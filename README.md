@@ -15,8 +15,8 @@ Python 3.5
 keras_preprocessing package 의 image.py 파일에 data augmentation부분이 수정되야함
 /home/casper/.local/lib/python3.5/site-packages/keras_preprocessing/image.py 를 해당 image.py로 교체 
 
+```shell
 ### Clone the repo.
-'''shell
 git clone https://github.com/AItrics/MURA.git
 <br>cd MURA
 
@@ -30,7 +30,7 @@ python3 train.py
 ### To evaluate
 python3 eval.py
 python3 predict.py MURA-v1.1/valid.csv prediction.csv
-
+```
 ### Performance 
 - Ensemble Model
 (model1 + model3 + model3  + model5 + model5) /5 로 평균낸 ensemble
