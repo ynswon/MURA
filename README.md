@@ -13,7 +13,7 @@ sklearn 0.19.1
 
 ### histogram_equalization usage
 keras_preprocessing package 의 image.py 파일에 data augmentation부분이 수정되야함
-/home/casper/.local/lib/python3.5/site-packages/keras_preprocessing/image.py
+/home/casper/.local/lib/python3.5/site-packages/keras_preprocessing/image.py 를 해당 image.py로 교체 
 
 ### Clone the repo.
 git clone https://github.com/AItrics/MURA.git
