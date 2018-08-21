@@ -4,21 +4,22 @@ MURA(musculoskeletal radiographs) - bone x-ray
 Reference: https://stanfordmlgroup.github.io/competitions/mura/
 
 Prerequisite
-Python 3.5\n
-TensorFlow 1.8+\n
-keras 2.2.0\n
-numpy 1.14.5\n
-pandas 0.23.3\n
-sklearn 0.19.1\n
+Python 3.5
+TensorFlow 1.8+
+keras 2.2.0
+numpy 1.14.5
+pandas 0.23.3
+sklearn 0.19.1
 
-How To Run
-#Modification(histogram_equalization)
+#How To Run
+
+Modification(histogram_equalization)
 keras_preprocessing package 의 image.py 파일에 data augmentation부분이 수정되야함
 /home/casper/.local/lib/python3.5/site-packages/keras_preprocessing/image.py
 
 # Clone the repo.
 git clone https://github.com/AItrics/MURA.git
-cd MURA-v1.1
+cd MURA
 
 # Transform MURA-v1.1 oflder to data folder
 python3 download_and_convert_mura.py
@@ -33,8 +34,7 @@ CUDA_VISIBLE_DEVICES=0 python3 predict.py MURA-v1.1/valid.csv prediction.csv
 
 Ensemble Model
 (model1 + model3 + model3  + model5 + model5) /5 로 평균낸 ensemble
-
-                     validation loss	accuracy	
+                      val_loss acc   
 DenseNet201(420x420)	0.4320	0.8332	model1
 DenseNet169(520x520)with Random Erase	0.4045	0.8313	model2
 InceptionResNetv2(420x420)	0.4211	0.8341	model3
