@@ -3,7 +3,7 @@ MURA(musculoskeletal radiographs) - bone x-ray
 
 Reference: https://stanfordmlgroup.github.io/competitions/mura/
 
-#Prerequisite
+# Prerequite
 Python 3.5
 TensorFlow 1.8+
 keras 2.2.0
@@ -11,7 +11,7 @@ numpy 1.14.5
 pandas 0.23.3
 sklearn 0.19.1
 
-Modification(histogram_equalization)
+# histogram_equalization usage
 keras_preprocessing package 의 image.py 파일에 data augmentation부분이 수정되야함
 /home/casper/.local/lib/python3.5/site-packages/keras_preprocessing/image.py
 
